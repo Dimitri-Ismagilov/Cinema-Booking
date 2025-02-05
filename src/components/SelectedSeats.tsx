@@ -1,11 +1,11 @@
-function SelectedSeats(){
+function SelectedSeats({count, price}: { count: number, price: number}){
+  const total = count * price;
 
     return(
         <p className="text">
-        You have selected <span id="count">0</span> seats for a price of $<span
+        You have selected <span id="count">{count}</span> seats for a price of $<span
           id="total"
-          >0</span
-        >
+          >{total}</span>
       </p>
     )
 }
