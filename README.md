@@ -1,50 +1,8 @@
-# React + TypeScript + Vite
+Jag håller på med min projekt som är skapad i Vite, React, TypeScript där jag använder Axios, ESLint airbnb och som databas har jag json-server.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Jag har valt att skapa den här projektet i React och ville få mer inblick av TypeScript för att kunna se fördelar och nackdelar jämfört mot vanlig Java-Script.
+Tyvärr har inte lyckats uppleva så mycket fördelar men den största grjen som jag har upplevt så har det varit jobbigt att ange olika specifika typer till skillnad från vanlig Java-Script.
 
-Currently, two official plugins are available:
+Jag har försökt att installera Eslint airbnb i den här projektet men har inte lyckats helt 100 med det tyvärr. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Men i övrigt så tycker jag att min applikation är väldigt bra modul byggt med olika komponenter som uppfyller sina funktioner.
